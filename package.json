@@ -1,6 +1,9 @@
 {
   "name": "changesets-prettier-error-repro",
   "version": "1.0.0",
+  "scripts": {
+    "up": "npx changeset version && echo $?"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.29.2"
   },
